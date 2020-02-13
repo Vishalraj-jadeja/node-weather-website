@@ -24,16 +24,18 @@ footer {
 
 header{
     margin: 16px 0 48px 0;
+    color:skyblue;
 }
 
 h1{
     font-size: 64px;
     margin-bottom: 16px;
 }
-
-header a{
+a{
     text-decoration: none;
-    color : #888888;
+}
+header a{
+    color : hsl(172, 90%, 35%);
     margin-right: 16px;
 }
 
@@ -50,7 +52,7 @@ button{
     cursor: pointer;
     border: 1px solid #888888;
     border-radius: 3px;
-    background: blue;
+    background: #0028ffd4;
     color: white;
     padding: 8px;
 }
